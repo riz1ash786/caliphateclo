@@ -9,7 +9,7 @@ const Home = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
-          CREATE JOBS
+          CREATE DESIGN
         </h1>
         {/* <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>
         Recruitment
@@ -18,14 +18,14 @@ const Home = () => {
         <ReactTyped
           className='text-4xl sm:text-5xl font-bold text-[#8892b0]'
             strings={[
-              " Recruitment",
-              " Technology",
-            " Corporate",
-            " Permanent",
-            " Contract",
+              " T-Shirts",
+              " Custom Prints",
+            " Tote Bags",
+            " Canvas Prints",
+            " Water Bottles",
             ]}
-      typeSpeed={80}
-      backSpeed={60}
+      typeSpeed={40}
+      backSpeed={40}
       loop/>
 
         {/* <ReactTyped
