@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b1baec4.css",
+    "main.js": "/static/js/main.4d179394.js",
+    "static/js/787.bc68d2f7.chunk.js": "/static/js/787.bc68d2f7.chunk.js",
+    "static/media/engage.png": "/static/media/engage.f293ae555d72c5da4147.png",
+    "static/media/learn.png": "/static/media/learn.009b900128679cb376d1.png",
+    "static/media/create_jobs_info_pack.pdf": "/static/media/create_jobs_info_pack.c98e5641c4d4ef7927e3.pdf",
+    "static/media/diversity_inclusion_statement.pdf": "/static/media/diversity_inclusion_statement.056b4b476c4a648f968c.pdf",
+    "static/media/balloons.png": "/static/media/balloons.47a88ec4675966ff8617.png",
+    "static/media/vision.png": "/static/media/vision.36443d9f3e3479092688.png",
+    "static/media/listen.png": "/static/media/listen.72b1640bffb0f99ed943.png",
+    "static/media/support.png": "/static/media/support.b918680fa22ed3d97144.png",
+    "static/media/pillars.png": "/static/media/pillars.7545804930a86df0be4e.png",
+    "static/media/rocket.png": "/static/media/rocket.cc24c04a0a12d43642b0.png",
+    "static/media/aramco.png": "/static/media/aramco.f67e81419283d5a04f0c.png",
+    "static/media/interview.png": "/static/media/interview.cd6464d1f9da269e217b.png",
+    "static/media/danone.png": "/static/media/danone.0f0774c14d567b57cc60.png",
+    "static/media/cognizant.png": "/static/media/cognizant.4fa1b6dd97fba5539c9e.png",
+    "static/media/wordpress.png": "/static/media/wordpress.9c3464a362df8cf1163c.png",
+    "static/media/zalando.png": "/static/media/zalando.5172964673e450e9aff2.png",
+    "static/media/emirates.png": "/static/media/emirates.2328fab4deec52ee13ac.png",
+    "static/media/logo.png": "/static/media/logo.05bf00c6a9a3fa44e3c9.png",
+    "static/media/emaar.png": "/static/media/emaar.cf7c21eb70c84c56a008.png",
+    "static/media/aliexpress.png": "/static/media/aliexpress.9e23925bdc01dfe6bb3b.png",
+    "static/media/salesforce.png": "/static/media/salesforce.edf5ca09adef0014b422.png",
+    "static/media/mandm.png": "/static/media/mandm.e3db740fb64329c5e2d1.png",
+    "static/media/slack.png": "/static/media/slack.6d8c61583f4717725bb9.png",
+    "static/media/ring.png": "/static/media/ring.9231985346a3f4b20cd6.png",
+    "static/media/microsoft.png": "/static/media/microsoft.c8535d0475d866894dfd.png",
+    "static/media/cisco.png": "/static/media/cisco.c0c5479cfb1c734131f0.png",
+    "static/media/monzo.png": "/static/media/monzo.467009d0b46e54932967.png",
+    "index.html": "/index.html",
+    "main.2b1baec4.css.map": "/static/css/main.2b1baec4.css.map",
+    "main.4d179394.js.map": "/static/js/main.4d179394.js.map",
+    "787.bc68d2f7.chunk.js.map": "/static/js/787.bc68d2f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b1baec4.css",
+    "static/js/main.4d179394.js"
+  ]
+}

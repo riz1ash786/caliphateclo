@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+        /* @apply font-[Anton]; */
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+.profile-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    height: 200px;
+    width: 300px;
+}
+.testimonial-div {
+    background-repeat: no-repeat;
+    background-size: 75% 55%;
+    background-position: center;
+    background-color: #e7eff1;
+    height: 140px;
+    width: 200px;
+}
+.testimonial-div:hover {
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        #748893,
+        #c2ced5
+    )!important;
+}

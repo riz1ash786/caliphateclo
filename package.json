@@ -1,0 +1,57 @@
+{
+  "name": "create-jobs",
+  "version": "1.0.0",
+  "description": "Using React I have created a company page to for an IT recruitment business. This application is fully functional and desktop/mobile friendly.",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riz1ash786/create-jobs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riz1ash786/create-jobs/issues"
+  },
+  "homepage": "https://createjobs.co.uk",
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "autoprefixer": "^10.4.2",
+    "emailjs-com": "^3.2.0",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.8",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.3.1",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.6",
+    "react-typed": "^2.0.12",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
