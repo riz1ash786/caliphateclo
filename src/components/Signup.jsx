@@ -28,7 +28,7 @@ export const Signup = () => {
       e.target.reset()
   };
   return (
-    <div name='contact' className='w-full h-auto bg-gradient-to-r from-[#000000] to-[#000000] flex justify-center items-center p-4'>
+    <div name='signup' className='w-full h-auto bg-gradient-to-r from-[#000000] to-[#000000] flex justify-center items-center p-4'>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full pb-16'>
             <div className='pt-28 text-center'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#dbb434] text-gray-300'>SIGN UP</p>

@@ -9,8 +9,8 @@ import Main from "./components/Main";
 function App() {
   return (
     <div>
-      <Main />
       <Navbar />
+      <Main />
       <Home />
       <About />
       <Collections />

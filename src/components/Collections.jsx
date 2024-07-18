@@ -5,7 +5,7 @@ import cap from '../assets/cap.png';
 
 const Collections = () => {
   return (
-    <div name='aim' className='w-full md:h-screen sm:h-auto bg-gradient-to-r from-[#452c12] to-[#a2784b] text-gray-300'>
+    <div name='collections' className='w-full md:h-screen sm:h-auto bg-gradient-to-r from-[#452c12] to-[#a2784b] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           {/* move text right on expand over small */}
