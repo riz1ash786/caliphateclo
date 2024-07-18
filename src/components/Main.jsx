@@ -1,7 +1,5 @@
 import React from 'react'
 import videoBg from '../assets/videoBg.mp4'
-// import { Link } from 'react-scroll';
-
 
 const Main = () => {
   return (

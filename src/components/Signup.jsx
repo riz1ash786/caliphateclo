@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import { MdOutlineDiversity3 } from "react-icons/md";
 import pdf2 from "./diversity_inclusion_statement.pdf"
 
-export const Contact = () => {
+export const Signup = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -57,4 +57,4 @@ export const Contact = () => {
   )
 }
 
-export default Contact
+export default Signup

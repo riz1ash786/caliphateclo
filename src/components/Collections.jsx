@@ -3,7 +3,7 @@ import tshirt from '../assets/tshirt.png';
 import hoodie from '../assets/hoodie.png';
 import cap from '../assets/cap.png';
 
-const Aim = () => {
+const Collections = () => {
   return (
     <div name='aim' className='w-full md:h-screen sm:h-auto bg-gradient-to-r from-[#452c12] to-[#a2784b] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
@@ -53,4 +53,4 @@ const Aim = () => {
   );
 };
 
-export default Aim;
+export default Collections;
