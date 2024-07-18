@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import {
   FaBars,
   FaTimes,
-  FaLinkedin,
+  FaInstagram,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { HiOutlineLockClosed } from "react-icons/hi";
+import { CiFacebook } from "react-icons/ci";
 import { BsBook } from "react-icons/bs";
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
@@ -36,21 +36,6 @@ const Navbar = () => {
         <li>
           <Link to='aim' smooth={true} duration={500}>
             Our Aim
-          </Link>
-        </li>
-        <li>
-          <Link to='candidates' smooth={true} duration={500}>
-            Candidates
-          </Link>
-        </li>
-        <li>
-          <Link to='companies' smooth={true} duration={500}>
-            Companies
-          </Link>
-        </li>
-        <li>
-          <Link to='privacy' smooth={true} duration={500}>
-            Privacy
           </Link>
         </li>
         <li>
@@ -121,29 +106,29 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           {/* icons slide in and out and styling */}
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0e577f]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/company/create-jobs-recruitment/'
+              href='https://www.instagram.com'
             >
-              Follow Us<FaLinkedin size={30} />
+              Follow Us<FaInstagram size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#102820]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:hello@createjobs.co.uk'
+              href='https://www.facebook.com'
             >
-              Email Us <HiOutlineMail size={30} />
+              Follow Us<CiFacebook size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4c6444]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <button
-              className='flex justify-between items-center w-full text-gray-300'> <Link to='privacy' smooth={true} duration={500}>Privacy</Link>
-               <HiOutlineLockClosed size={30} />
+              className='flex justify-between items-center w-full text-gray-300'> <Link to='contact' smooth={true} duration={500}>Subscribe</Link>
+               <HiOutlineMail size={30} />
             </button>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8a6240]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
           <a
               className='flex justify-between items-center w-full text-gray-300'
               href={pdf} download="Create Jobs Info Pack.pdf">Download Info Pack<BsBook size={40} />
