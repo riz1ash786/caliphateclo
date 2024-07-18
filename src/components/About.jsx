@@ -8,7 +8,7 @@ const About = () => {
       {/* Container */}
       <div className='text-center max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-[#dbb434]'>Who We Are</p>
+              <p className='text-4xl font-bold inline border-b-4 border-[#dbb434]'>ABOUT</p>
               <p className='font-bold pt-8'>  Introducing Caliphate Clothing - The Guided, a Luxury British Design Fashion Streetwear Brand.</p>
               <p className='py-4'>
               Combing opulence with urban sophistication into daily wearbale fashion. Drawing inspiration from the rich cultural heritage of Britain and the dynamic 

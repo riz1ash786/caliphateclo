@@ -34,13 +34,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='aim' smooth={true} duration={500}>
-            Our Aim
+          <Link to='collections' smooth={true} duration={500}>
+            Collections
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
+          <Link to='signup' smooth={true} duration={500}>
+            Signup
           </Link>
         </li>
       </ul>
@@ -72,8 +72,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='aim' smooth={true} duration={500}>
-            Our Aim
+          <Link onClick={handleClick} to='collections' smooth={true} duration={500}>
+            Collections
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -96,8 +96,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+          <Link onClick={handleClick} to='signup' smooth={true} duration={500}>
+            Signup
           </Link>
         </li>
       </ul>
@@ -124,7 +124,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <button
-              className='flex justify-between items-center w-full text-gray-300'> <Link to='contact' smooth={true} duration={500}>Subscribe</Link>
+              className='flex justify-between items-center w-full text-gray-300'> <Link to='signup' smooth={true} duration={500}>Subscribe</Link>
                <HiOutlineMail size={30} />
             </button>
           </li>

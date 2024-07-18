@@ -30,7 +30,7 @@ export const Contact = () => {
     <div name='contact' className='w-full h-auto bg-gradient-to-r from-[#000000] to-[#000000] flex justify-center items-center p-4'>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full pb-16'>
             <div className='pt-28 text-center'>
-                <p className='text-4xl font-bold inline border-b-4 border-[#dbb434] text-gray-300'>Sign Up</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#dbb434] text-gray-300'>SIGN UP</p>
                 <p className='text-gray-300 py-8'>Stay connected for the latest drops and exclusive brand updates;</p>
             </div>
             <div className='pb-4 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>

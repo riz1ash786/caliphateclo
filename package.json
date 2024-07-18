@@ -1,7 +1,7 @@
 {
-  "name": "create-jobs",
+  "name": "create-design",
   "version": "1.0.0",
-  "description": "Using React I have created a company page to for an IT recruitment business. This application is fully functional and desktop/mobile friendly.",
+  "description": "Using React I have created a company page for a fashion brand company. This application is fully functional and desktop/mobile friendly.",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riz1ash786/create-jobs.git"
+    "url": "git+https://github.com/riz1ash786/create-design.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/riz1ash786/create-jobs/issues"
+    "url": "https://github.com/riz1ash786/create-design/issues"
   },
   "homepage": "https://createjobs.co.uk",
   "dependencies": {
