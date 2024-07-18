@@ -1,9 +1,10 @@
 import {FaInstagram,} from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { CiFacebook } from "react-icons/ci";
-import { CiYoutube } from "react-icons/ci";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { MdOutlineDiversity3 } from "react-icons/md";
+import pdf2 from "./diversity_inclusion_statement.pdf"
 
 export const Contact = () => {
   const form = useRef();
@@ -46,8 +47,7 @@ export const Contact = () => {
               href='https://www.facebook.com/'><CiFacebook size={30} /></a></p>
                           <p><a className='pt-2 flex sm:justify-center text-gray-300 hover:text-[#dbb434]'
               href='https://www.x.com/'><FaXTwitter size={30} /></a></p>
-                          <p><a className='pt-2 flex sm:justify-center text-gray-300 hover:text-[#dbb434]'
-              href='https://www.youtube.com/'><CiYoutube size={30} /></a></p>
+                          <p>        <a className='pt-2 flex sm:justify-center' href={pdf2} download="Caliphate Clo. Diversity & Inclusion Statement.pdf"><MdOutlineDiversity3 size={30} className='hover:text-[#dbb434]'/></a></p>
             </div>
           </div>
             <input className='text-center my-4 mx-32 p-2 bg-[#e3f7ff]' type="email" placeholder='Email address' name='email' />

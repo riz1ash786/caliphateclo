@@ -6,10 +6,10 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { CiFacebook } from "react-icons/ci";
-import { BsBook } from "react-icons/bs";
-import Logo from '../assets/logo.png';
+// import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
-import pdf from "./create_jobs_info_pack.pdf"
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,9 +17,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#050d1c] to-[#0d8bb9] text-[#dbb434]'>
-      <Link to='home' smooth={true} duration={500}>
+      {/* <Link to='home' smooth={true} duration={500}>
       <img src={Logo} alt='Logo'  style={{ width: '100px' }}/> 
-          </Link>
+          </Link> */}
 
       {/* menu */}
       <ul className='hidden md:flex'>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='about' smooth={true} duration={500}>
-            About Us
+            About
           </Link>
         </li>
         <li>
@@ -67,31 +67,13 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About Us
+            About
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='collections' smooth={true} duration={500}>
             Collections
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='candidates' smooth={true} duration={500}>
-            Candidates
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='companies' smooth={true} duration={500}>
-            Companies
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='privacy' smooth={true} duration={500}>
-           Privacy
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -123,17 +105,20 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.x.com'
+            >
+              Follow Us<FaXTwitter size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <button
               className='flex justify-between items-center w-full text-gray-300'> <Link to='signup' smooth={true} duration={500}>Subscribe</Link>
                <HiOutlineMail size={30} />
             </button>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
-          <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href={pdf} download="Create Jobs Info Pack.pdf">Download Info Pack<BsBook size={40} />
-            </a>
-          </li>
+
         </ul>
       </div>
     </div>
