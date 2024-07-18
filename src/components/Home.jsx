@@ -31,7 +31,7 @@ const Home = () => {
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 mx-auto flex items-center hover:bg-[#dbb434] hover:border-[#dbb434] hover:text-[#000000]'>
-          <Link to='contact' smooth={true} duration={500}>Discover Now </Link>
+          <Link to='aim' smooth={true} duration={500}>Discover Now </Link>
             {/* rotate arrow on hover */}
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />

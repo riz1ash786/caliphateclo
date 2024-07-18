@@ -1,4 +1,4 @@
-import Aim from "./components/Aim";
+import Collections from "./components/Collections";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Aim />
+      <Collections />
       <Contact />
       <Footer />
     </div>

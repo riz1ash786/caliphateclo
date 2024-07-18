@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {
-    FaLinkedin,
+    FaInstagram,
 } from 'react-icons/fa'
 import { BsBook,} from "react-icons/bs";
 import { MdOutlineDiversity3 } from "react-icons/md";
@@ -22,11 +22,11 @@ const Footer = () => {
     Copyright&#169; 2024 Caliphate Clo. Limited. All rights reserved.</p>
   
   <div className='flex justify-between md:w-[75%] my-2'>
-        <a href='https://twitter.com/'><FaXTwitter size={30} className='hover:text-[#dbb434]' /></a>
+        <a href='https://www.x.com/'><FaXTwitter size={30} className='hover:text-[#dbb434]' /></a>
         <a href={pdf2} download="Create Jobs Diversity & Inclusion Statement.pdf"><MdOutlineDiversity3 size={30} className='hover:text-[#dbb434]'/></a>
         <a href='mailto:hello@createjobs.co.uk'><HiOutlineMail size={30} className='hover:text-[#dbb434]'/></a>
         <a href={pdf} download="Create Jobs Info Pack.pdf"><BsBook size={30} className='hover:text-[#dbb434]' /></a>
-        <a href='https://www.linkedin.com/company/create-jobs-recruitment/'><FaLinkedin size={30} className='hover:text-[#dbb434]'/></a>
+        <a href='https://www.Instagram.com/'><FaInstagram size={30} className='hover:text-[#dbb434]'/></a>
   </div>
   </div>
   <div className='lg:col-span-2 flex-col md:flex-row flex justify-between pt-4 gap-4 md:gap-16'>
