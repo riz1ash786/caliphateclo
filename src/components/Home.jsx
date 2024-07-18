@@ -5,7 +5,7 @@ import { ReactTyped } from "react-typed";
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-gradient-to-r from-[#050d1c] to-[#0d8bb9]'>
+    <div name='home' className='w-full h-screen bg-gradient-to-r from-[#452c12] to-[#a2784b]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
