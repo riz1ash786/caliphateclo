@@ -1,7 +1,7 @@
 import React from 'react';
-import rocket from '../assets/rocket.png';
-import vision from '../assets/vision.png';
-import pillars from '../assets/pillars.png';
+import tshirt from '../assets/tshirt.png';
+import hoodie from '../assets/hoodie.png';
+import cap from '../assets/cap.png';
 
 const Aim = () => {
   return (
@@ -27,21 +27,21 @@ const Aim = () => {
           <div className='pt-8 max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4'>
            <div>
             <div
-            style={{ backgroundImage: `url(${rocket})` }}
+            style={{ backgroundImage: `url(${tshirt})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>THE GUIDED</p> <p className=' pt-2 pb-8 text-center'>To connect the best talent with rewarding opportunities.</p>
             </div>
             <div>
               <div
-            style={{ backgroundImage: `url(${vision})` }}
+            style={{ backgroundImage: `url(${hoodie})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>THE SHELL</p><p className='pt-2 pb-8 text-center'>Bridging talent to opportunity, shaping tomorrow's success.</p>
             </div>
             <div>
             <div
-            style={{ backgroundImage: `url(${pillars})` }}
+            style={{ backgroundImage: `url(${cap})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>
