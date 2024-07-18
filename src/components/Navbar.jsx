@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { CiFacebook } from "react-icons/ci";
-import Logo from '../assets/logo.png';
+
 import { Link } from 'react-scroll';
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -16,10 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-[#dbb434]'>
-      <Link to='home' smooth={true} duration={500}>
-      <img src={Logo} alt='Logo'  style={{ width: '40px' }}/> 
-          </Link>
+    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 text-[#dbb434]'>
 
       {/* menu */}
       <ul className='hidden md:flex'>
