@@ -34,12 +34,12 @@ export const Contact = () => {
                 <p className='text-gray-300 py-8'>Stay connected for the latest drops and exclusive brand updates;</p>
             </div>
             <div className='pb-4 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
-            <div className='sm:text-center items-center'>
+            <div className='text-center items-center'>
               <p>Business Inquiries</p>
               <p>Email: <a className='hover:text-[#dbb434]' href='mailto:hello@createjobs.co.uk'>info@calipahteclo.com</a></p>
 
             </div>
-            <div className='pb-4 max-w-[1000px] w-full grid sm:grid-cols-4 gap-8 px-2'>             
+            <div className='pb-4 max-w-[1000px] w-full grid grid-cols-4 gap-8 px-2'>             
               <p><a className='pt-2 flex sm:justify-center text-gray-300 hover:text-[#dbb434]'
               href='https://www.instagram.com/'><FaInstagram size={30} /></a></p>
                           <p><a className='pt-2 flex sm:justify-center text-gray-300 hover:text-[#dbb434]'
@@ -50,7 +50,7 @@ export const Contact = () => {
               href='https://www.youtube.com/'><CiYoutube size={30} /></a></p>
             </div>
           </div>
-            <input className='text-center my-4 mx-32 p-2 bg-[#e3f7ff]' type="email" placeholder='Email' name='email' />
+            <input className='text-center my-4 mx-32 p-2 bg-[#e3f7ff]' type="email" placeholder='Email address' name='email' />
             <button className='text-white border-2 hover:bg-[#dbb434] hover:border-[#dbb434] hover:text-[#000000] px-8 py-3 my-2 mx-auto flex items-center' type='submit' value='Send'>Sign Up</button>
         </form>
     </div>

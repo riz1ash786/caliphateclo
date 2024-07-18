@@ -18,10 +18,10 @@ const Aim = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
 
-              <p>THE GUIDED. THE SHELL. THE ATTACHMENTS. </p>
+              <p>STAY GUIDED. STAY CALM. STAY FOCUSED. </p>
             </div>
             <div>
-              <p>THE GUIDED. Our guided signature range is a capsule of minimalist clothing, embodying our core principles of maintaining luxury design, quality and production processes.</p>
+              <p>THE GUIDED. THE CALM. THE FOCUSED. Bringing you the Caliphate Clo. Collections. Cultured, minimalist clothing, embodying our core principles of maintaining luxury design, quality and sustainbale production processes.</p>
             </div>
           </div>
           <div className='pt-8 max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4'>
@@ -30,14 +30,14 @@ const Aim = () => {
             style={{ backgroundImage: `url(${tshirt})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
-            <p className='pt-8 text-center text-[#dbb434]'>THE GUIDED</p> <p className=' pt-2 pb-8 text-center'>To connect the best talent with rewarding opportunities.</p>
+            <p className='pt-8 text-center text-[#dbb434]'>THE GUIDED</p> <p className=' pt-2 pb-8 text-center'>HOUSE COLLECTION</p>
             </div>
             <div>
               <div
             style={{ backgroundImage: `url(${hoodie})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
-            <p className='pt-8 text-center text-[#dbb434]'>THE SHELL</p><p className='pt-2 pb-8 text-center'>Bridging talent to opportunity, shaping tomorrow's success.</p>
+            <p className='pt-8 text-center text-[#dbb434]'>THE CALM</p><p className='pt-2 pb-8 text-center'>SHELL COLLECTION</p>
             </div>
             <div>
             <div
@@ -45,7 +45,7 @@ const Aim = () => {
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>
-              THE ATTACHMENTS</p><p className='pt-2 pb-8 text-center'>To provide Integrity, Transparency & Collaboration.</p>
+              THE FOCUSED</p><p className='pt-2 pb-8 text-center'>ATTACHMENTS COLLECTION</p>
             </div>
           </div>
       </div>

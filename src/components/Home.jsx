@@ -13,7 +13,7 @@ const Home = () => {
         </h1>
 
         <ReactTyped
-          className='text-4xl sm:text-5xl font-bold text-[#8892b0]'
+          className='text-4xl sm:text-5xl font-bold text-[#9e9e9e]'
             strings={[
               " Luxury Streetwear",
             " British Design",
@@ -24,7 +24,7 @@ const Home = () => {
       loop/>
 
         <i className='pt-4 text-[#dbb434]'>Luxury Streetwear Clothing Brand - Calipahte, The Guided.</i>
-        <p className='py-4 text-[#8892b0]'>
+        <p className='py-4 text-gray-300'>
         Our garments represent relentless effort, refinement, and continuous improvement. 
         Each piece is crafted through a meticulous design and production process, with expert 
         craftsmanship evident in every collection, silhouette, and individual item.

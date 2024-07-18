@@ -1,6 +1,4 @@
 import React from 'react';
-import { BsBook } from "react-icons/bs";
-import pdf from "./create_jobs_info_pack.pdf"
 
 const About = () => {
   return (
@@ -19,15 +17,6 @@ const About = () => {
               stands at the forefront of a fashion revolution, offering not just clothing, but a lifestyle of guided elegance and urban luxury.
                 </p>
               <p className='py-4'>Embrace the essence of British innovation and streetwear refinement with Caliphate - The Guided. </p>
-          </div>
-          <div className='md:hidden'> 
-            <p className='text-gray-300 pt-8 text-center font-bold'>To learn more about Create Jobs, view our company information pack by clicking the button below.</p>
-          <button className='text-white group border-2 hover:bg-[#dbb434] hover:border-[#dbb434] hover:text-[#000000] px-4 py-3 my-8 mx-auto items-center flex'>
-          <a
-              className='w-[200px] h-[25px] flex justify-between items-center'
-              href={pdf} download="Create Jobs Info Pack.pdf">Create Jobs Info Pack<BsBook size={30} />
-            </a>
-          </button>
           </div>
       </div>
     </div>
