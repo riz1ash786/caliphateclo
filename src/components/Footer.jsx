@@ -22,7 +22,7 @@ const Footer = () => {
   
   <div className='flex justify-between md:w-[75%] my-2'>
         <a href='https://www.x.com/'><FaXTwitter size={30} className='hover:text-[#dbb434]' /></a>
-        <a href={pdf2} download="Create Jobs Diversity & Inclusion Statement.pdf"><MdOutlineDiversity3 size={30} className='hover:text-[#dbb434]'/></a>
+        <a href={pdf2} download="Caliphate Clo. Diversity & Inclusion Statement.pdf"><MdOutlineDiversity3 size={30} className='hover:text-[#dbb434]'/></a>
         <a href='mailto:info@caliphateclo.com'><HiOutlineMail size={30} className='hover:text-[#dbb434]'/></a>
         <a href='https://www.Facebook.com/'><CiFacebook size={30} className='hover:text-[#dbb434]'/></a>
         <a href='https://www.Instagram.com/'><FaInstagram size={30} className='hover:text-[#dbb434]'/></a>
@@ -33,7 +33,7 @@ const Footer = () => {
 <h1 className='font-medium text-gray-500 flex'>Diversity & Inclusion</h1>
     <p className='text-gray-300 py-2'>We value diversity & inclusion & strive to connect with a diverse pool of people from different backgrounds, 
     fostering environments where all individuals can contribute & succeed. To read more about our commitment to Diversity please click 
-    <a className='hover:text-[#dbb434] hover:font-bold' href={pdf2} download="Create Jobs Diversity & Inclusion Statement.pdf"> here.</a></p>
+    <a className='hover:text-[#dbb434] hover:font-bold' href={pdf2} download="Caliphate Clo. Diversity & Inclusion Statement.pdf"> here.</a></p>
 </div>
 <div>
 <h1 className='font-medium text-gray-500 flex'>Sustainability</h1>

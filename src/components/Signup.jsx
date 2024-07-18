@@ -37,7 +37,7 @@ export const Signup = () => {
             <div className='pb-4 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
             <div className='text-center items-center'>
               <p>Business Inquiries</p>
-              <p>Email: <a className='hover:text-[#dbb434]' href='mailto:hello@createjobs.co.uk'>info@caliphateclo.com</a></p>
+              <p>Email: <a className='hover:text-[#dbb434]' href='mailto:info@caliphateclo.com'>info@caliphateclo.com</a></p>
 
             </div>
             <div className='pb-4 max-w-[1000px] w-full grid grid-cols-4 gap-8 px-2'>             
