@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 text-[#dbb434]'>
+    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 text-gray-300'>
 
       {/* menu */}
       <ul className='hidden md:flex'>
@@ -52,7 +52,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-[#050d1c] to-[#0d8bb9] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-[#452c12] to-[#a2784b] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -111,7 +111,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <button
-              className='flex justify-between items-center w-full text-gray-300'> <Link to='signup' smooth={true} duration={500}>Subscribe</Link>
+              className='flex justify-between items-center w-full text-gray-300'> <Link to='signup' smooth={true} duration={500}>Sign Up</Link>
                <HiOutlineMail size={30} />
             </button>
           </li>

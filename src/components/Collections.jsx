@@ -21,7 +21,8 @@ const Collections = () => {
               <p>STAY GUIDED. STAY CALM. STAY FOCUSED. </p>
             </div>
             <div>
-              <p>THE GUIDED. THE CALM. THE FOCUSED. Bringing you the Caliphate Clo. Collections. Cultured, minimalist clothing, embodying our core principles of maintaining luxury design, quality and sustainbale production processes.</p>
+              <p>THE GUIDED. THE CALM. THE FOCUSED. Bringing you the Caliphate Clo. Collections. Cultured, minimalist clothing, 
+                embodying our core principles of maintaining luxury design, quality and sustainable production processes.</p>
             </div>
           </div>
           <div className='pt-8 max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4'>
