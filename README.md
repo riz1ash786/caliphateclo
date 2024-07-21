@@ -1,4 +1,4 @@
-# Create Jobs
+# CaliphateClo
 
 ## Table of contents
 
@@ -18,7 +18,7 @@
 
 ## Description
 
-Using React I have created a company page to for an IT recruitment business. This application is fully functional and desktop/mobile friendly.
+Using React I have created a company page to for a Luxury Streetwear Fashion Brand. This application is fully functional and desktop/mobile friendly.
 
 ---
 
@@ -27,8 +27,8 @@ Using React I have created a company page to for an IT recruitment business. Thi
 Start with cloning this repository link on to your local machine:
 
 ```
-$ git clone https://github.com/riz1ash786/create-jobs
-$ cd create-jobs
+$ git clone https://github.com/riz1ash786/caliphateclo
+$ cd caliphateclo
 ```
 
 To install the required dependencies and set up the application, run:
@@ -87,15 +87,15 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 
 ## Screenshots
 
-![Homepage](src/assets/home.png)
+![Main](src/assets/main.png)
 
-![About Us](src/assets/about.png)
+![Homepage](src/assets/homepage.png)
 
-![Our Aim](src/assets/aim.png)
+![About](src/assets/about.png)
 
-![Services](src/assets/services.png)
+![Collections](src/assets/collections.png)
 
-![Contact Form](src/assets/contact.png)
+![Sign Up](src/assets/signup.png)
 
 ![Mobile Version](src/assets/mobile.png)
 
@@ -104,8 +104,8 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 ## Deployed Application
 
 <div id="badges">
-  <a href="https://riz1ash786.github.io/create-jobs/">
-    <img src="https://img.shields.io/badge/Github Pages-Create Jobs-blue?style=for-the-badge&logo=GITHUBPAGES&logoColor=white" alt="GitHub Pages Link"/>
+  <a href="https://riz1ash786.github.io/caliphateclo/">
+    <img src="https://img.shields.io/badge/Github Pages-Caliphate Clo-blue?style=for-the-badge&logo=GITHUBPAGES&logoColor=white" alt="GitHub Pages Link"/>
   </a>
 </div>
 
@@ -114,8 +114,8 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 ## GitHub Repository
 
 <div id="badges">
-  <a href="https://github.com/riz1ash786/create-jobs">
-    <img src="https://img.shields.io/badge/Repository-Create Jobs-blue?style=for-the-badge&logo=GITHUB&logoColor=white" alt="Repository Link"/>
+  <a href="https://github.com/riz1ash786/caliphateclo">
+    <img src="https://img.shields.io/badge/Repository-Caliphate Clo-blue?style=for-the-badge&logo=GITHUB&logoColor=white" alt="Repository Link"/>
   </a>
 </div>
 

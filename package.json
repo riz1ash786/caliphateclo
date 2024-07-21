@@ -1,5 +1,5 @@
 {
-  "name": "create-design",
+  "name": "caliphateclo",
   "version": "1.0.0",
   "description": "Using React I have created a company page for a fashion brand company. This application is fully functional and desktop/mobile friendly.",
   "main": "index.js",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riz1ash786/create-design.git"
+    "url": "git+https://github.com/riz1ash786/caliphateclo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/riz1ash786/create-design/issues"
+    "url": "https://github.com/riz1ash786/caliphateclo/issues"
   },
   "homepage": "https://createjobs.co.uk",
   "dependencies": {
