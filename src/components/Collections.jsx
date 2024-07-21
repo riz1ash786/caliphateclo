@@ -31,14 +31,14 @@ const Collections = () => {
             style={{ backgroundImage: `url(${tshirt})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
-            <p className='pt-8 text-center text-[#dbb434]'>THE GUIDED</p> <p className=' pt-2 pb-8 text-center'>HOUSE COLLECTION</p>
+            <p className='pt-8 text-center text-[#dbb434]'>GUIDED COLLECTION</p> <p className=' pt-2 pb-8 text-center'>Caliphate Mainline House Collection: Luxury pieces combining premium materials with contemporary design.</p>
             </div>
             <div>
               <div
             style={{ backgroundImage: `url(${hoodie})` }}
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
-            <p className='pt-8 text-center text-[#dbb434]'>THE CALM</p><p className='pt-2 pb-8 text-center'>SHELL COLLECTION</p>
+            <p className='pt-8 text-center text-[#dbb434]'>SHELL COLLECTION</p><p className='pt-2 pb-8 text-center'>Caliphate Hoodies and Sweatpants: Made using high-quality fabrics, seamlessly blending comfort with style.</p>
             </div>
             <div>
             <div
@@ -46,7 +46,7 @@ const Collections = () => {
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>
-              THE FOCUSED</p><p className='pt-2 pb-8 text-center'>ATTACHMENTS COLLECTION</p>
+              ATTACHMENTS COLLECTION</p><p className='pt-2 pb-8 text-center'>Complete the look with our high build, unstructured trucker Caps featuring siganture Caliphate branding.</p>
             </div>
           </div>
       </div>
