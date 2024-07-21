@@ -18,10 +18,10 @@ const Collections = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
 
-              <p>STAY GUIDED. STAY CALM. STAY FOCUSED. </p>
+              <p>Consciously Crafted Luxury Streetwear. </p>
             </div>
             <div>
-              <p>THE GUIDED. THE CALM. THE FOCUSED. Bringing you the Caliphate Clo. Collections. Cultured, minimalist clothing, 
+              <p>Introducing Caliphate Collections. Cultured, minimalist clothing, 
                 embodying our core principles of maintaining luxury design, quality and sustainable production processes.</p>
             </div>
           </div>

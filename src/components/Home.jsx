@@ -23,10 +23,10 @@ const Home = () => {
       backSpeed={40}
       loop/>
 
-        <i className='pt-4 text-[#dbb434]'>Luxury Streetwear Clothing Brand - Caliphate, The Guided.</i>
+        <i className='pt-4 text-[#dbb434]'>A British Luxury Streetwear Clothing Brand.</i>
         <p className='py-4 text-gray-300'>
         Our garments represent relentless effort, refinement, and continuous improvement. 
-        Each piece is crafted through a meticulous design and production process, with expert 
+        Each piece is crafted through a meticulous design and production processes, with expert 
         craftsmanship evident in every collection, silhouette, and individual item.
         </p>
         <div>
