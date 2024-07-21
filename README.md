@@ -1,4 +1,4 @@
-# CaliphateClo
+# Caliphate Clothing
 
 ## Table of contents
 
