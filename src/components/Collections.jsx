@@ -16,7 +16,7 @@ const Collections = () => {
           </div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-2 sm:gap-8 px-4 sm:text-left'>
-            <div className='sm:text-right text-2xl sm:text-4xl font-bold'>
+            <div className='sm:text-right text-4xl font-bold'>
               <p>Consciously Crafted Luxury Streetwear. </p>
             </div>
             <div>
@@ -28,21 +28,21 @@ const Collections = () => {
            <div>
             <div
             style={{ backgroundImage: `url(${tshirt})` }}
-            className='shadow-lg shadow-[#040c16] mx-auto content-div sm:mt-6 sm:mb-6 hover:scale-110 duration-500'>
+            className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>GUIDED COLLECTION</p> <p className=' pt-2 sm:pb-8 text-center'>Caliphate Mainline House Collection: Luxury pieces combining premium materials with contemporary design.</p>
             </div>
             <div>
               <div
             style={{ backgroundImage: `url(${hoodie})` }}
-            className='shadow-lg shadow-[#040c16] mx-auto content-div sm:mt-6 sm:mb-6 hover:scale-110 duration-500'>
+            className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>SHELL COLLECTION</p><p className='pt-2 sm:pb-8 text-center'>Caliphate Hoodies and Sweatpants: Made using high-quality fabrics, seamlessly blending comfort with style.</p>
             </div>
             <div>
             <div
             style={{ backgroundImage: `url(${cap})` }}
-            className='shadow-lg shadow-[#040c16] mx-auto content-div sm:mt-6 sm:mb-6 hover:scale-110 duration-500'>
+            className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>
               ATTACHMENTS COLLECTION</p><p className='pt-2 pb-28 text-center'>Complete the look with our high build, unstructured trucker Caps featuring siganture Caliphate branding.</p>
