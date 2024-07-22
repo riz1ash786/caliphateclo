@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.15efefc8.css",
-    "main.js": "/static/js/main.3ebe7853.js",
-    "static/js/787.1b72683a.chunk.js": "/static/js/787.1b72683a.chunk.js",
-    "static/media/videoBg.mp4": "/static/media/videoBg.56441fcbb87daf6a532a.mp4",
-    "static/media/diversity_inclusion_statement.pdf": "/static/media/diversity_inclusion_statement.c5b62ab5b8271da73e40.pdf",
-    "static/media/cap.png": "/static/media/cap.422b96510c0d72a3866e.png",
-    "static/media/hoodie.png": "/static/media/hoodie.4d4b866d047c05382d04.png",
-    "static/media/tshirt.png": "/static/media/tshirt.5dea9cc843e41c0e287c.png",
-    "index.html": "/index.html",
-    "main.15efefc8.css.map": "/static/css/main.15efefc8.css.map",
-    "main.3ebe7853.js.map": "/static/js/main.3ebe7853.js.map",
-    "787.1b72683a.chunk.js.map": "/static/js/787.1b72683a.chunk.js.map"
+    "main.css": "/caliphateclo/static/css/main.15efefc8.css",
+    "main.js": "/caliphateclo/static/js/main.3c38a221.js",
+    "static/js/787.1b72683a.chunk.js": "/caliphateclo/static/js/787.1b72683a.chunk.js",
+    "static/media/videoBg.mp4": "/caliphateclo/static/media/videoBg.56441fcbb87daf6a532a.mp4",
+    "static/media/diversity_inclusion_statement.pdf": "/caliphateclo/static/media/diversity_inclusion_statement.c5b62ab5b8271da73e40.pdf",
+    "static/media/cap.png": "/caliphateclo/static/media/cap.422b96510c0d72a3866e.png",
+    "static/media/hoodie.png": "/caliphateclo/static/media/hoodie.4d4b866d047c05382d04.png",
+    "static/media/tshirt.png": "/caliphateclo/static/media/tshirt.5dea9cc843e41c0e287c.png",
+    "index.html": "/caliphateclo/index.html",
+    "main.15efefc8.css.map": "/caliphateclo/static/css/main.15efefc8.css.map",
+    "main.3c38a221.js.map": "/caliphateclo/static/js/main.3c38a221.js.map",
+    "787.1b72683a.chunk.js.map": "/caliphateclo/static/js/787.1b72683a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15efefc8.css",
-    "static/js/main.3ebe7853.js"
+    "static/js/main.3c38a221.js"
   ]
 }
