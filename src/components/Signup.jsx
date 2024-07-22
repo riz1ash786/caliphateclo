@@ -13,8 +13,8 @@ export const Signup = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_2at2dff', 'template_nop409g', form.current, {
-        publicKey: '3mJGxmnteNQKF2TWt',
+      .sendForm('service_snx9x2a', 'template_z9it6u5', form.current, {
+        publicKey: 'o4lOPQbCUQ85p4mq3',
       })
       .then(
         (result) => {
@@ -27,6 +27,7 @@ export const Signup = () => {
       );
       e.target.reset()
   };
+  
   return (
     <div name='signup' className='w-full md:h-screen sm:h-auto bg-gradient-to-r from-[#000000] to-[#000000] flex justify-center items-center p-4'>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full pb-16'>
@@ -51,10 +52,13 @@ export const Signup = () => {
             </div>
           </div>
             <input className='text-center my-4 mx-32 p-2 bg-[#e3f7ff]' type="email" placeholder='Email address' name='email' />
-            <button className='text-white border-2 hover:bg-[#dbb434] hover:border-[#dbb434] hover:text-[#000000] px-8 py-3 my-2 mx-auto flex items-center' type='submit' value='Send'>Sign Up</button>
+              <button className='text-white border-2 hover:bg-[#dbb434] hover:border-[#dbb434] hover:text-[#000000] px-8 py-3 my-2 mx-auto flex items-center' type='submit' value='Send'>Sign Up</button>
         </form>
     </div>
+
   )
+  
+  
 }
 
 export default Signup
