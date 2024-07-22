@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='inset-x-0 fixed w-full h-[80px] flex justify-end items-center px-4 text-gray-300'>
+    <div className='navbar inset-x-0  fixed w-full h-[80px] flex justify-end items-center px-4 text-gray-300'>
 
       {/* menu */}
       <ul className='hidden md:flex'>
@@ -115,7 +115,6 @@ const Navbar = () => {
                <HiOutlineMail size={30} />
             </button>
           </li>
-
         </ul>
       </div>
     </div>

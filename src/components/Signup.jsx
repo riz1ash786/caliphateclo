@@ -51,7 +51,7 @@ export const Signup = () => {
                           <p>        <a className='pt-2 flex sm:justify-center' href={pdf2} download="Caliphate Clo. Diversity & Inclusion Statement.pdf"><MdOutlineDiversity3 size={30} className='hover:text-[#dbb434]'/></a></p>
             </div>
           </div>
-            <input className='text-center my-4 mx-32 p-2 bg-[#e3f7ff]' type="email" placeholder='Email address' name='email' />
+            <input className='text-center my-4 mx-32 p-2 bg-gray-300' type="email" placeholder='Email address' name='email' />
               <button className='text-white border-2 hover:bg-[#dbb434] hover:border-[#dbb434] hover:text-[#000000] px-8 py-3 my-2 mx-auto flex items-center' type='submit' value='Send'>Sign Up</button>
         </form>
     </div>
