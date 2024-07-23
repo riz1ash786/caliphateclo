@@ -45,7 +45,7 @@ const Collections = () => {
             className='shadow-lg shadow-[#040c16] mx-auto content-div mt-6 mb-6 hover:scale-110 duration-500'>
             </div>
             <p className='pt-8 text-center text-[#dbb434]'>
-              ATTACHMENTS COLLECTION</p><p className='pt-2 pb-28 text-center'>Complete the look with our high build, unstructured trucker Caps featuring siganture Caliphate branding.</p>
+              ATTACHMENTS COLLECTION</p><p className='pt-2 pb-28 text-center'>Complete the look with our high build, unstructured trucker Caps featuring signature Caliphate branding.</p>
             </div>
           </div>
       </div>
