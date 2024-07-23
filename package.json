@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/riz1ash786/caliphateclo/issues"
   },
-  "homepage": "https://riz1ash786.github.io/caliphateclo/",
+  "homepage": "https://caliphateclo.com",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "autoprefixer": "^10.4.2",
