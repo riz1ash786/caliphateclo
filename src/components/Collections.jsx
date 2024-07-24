@@ -16,7 +16,7 @@ const Collections = () => {
           </div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-2 sm:gap-8 px-4 sm:text-left'>
-            <div className='sm:text-right text-4xl font-bold'>
+            <div className='sm:text-right text-xl sm:text-4xl font-bold'>
               <p>Consciously Crafted Luxury Streetwear. </p>
             </div>
             <div>

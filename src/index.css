@@ -14,16 +14,6 @@
     }
 }
 
-.body {
-  padding:0;
-}
-
-@media (max-width: 800px) {
-  body {
-  overflow-x: hidden;
-  }
-}
-
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +31,6 @@
     width: 100%;
     height: 100vh;
   }
-  
   
 video {
     width: 100%;

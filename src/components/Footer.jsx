@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className='w-full mx-auto grid md:grid-cols-3 py-12 px-4 gap-12 text-gray-300 bg-[#000000]'>
     <div>
-    <h1 className='w-full text-3xl font-bold text-[#dbb434] flex '>CALIPHATE CLO. LIMITED</h1>
+    <h1 className='w-full text-2xl sm:text-3xl font-bold text-[#dbb434] flex '>CALIPHATE CLO. LIMITED</h1>
     <p className='py-4'>Thank you for visiting Caliphate Clo. Stay connected by following us on social media for updates & industry insights.
     For collaboration inquiries please get in touch at info@caliphateclo.co.uk. 
     Copyright&#169; 2024 Caliphate Clo. Limited. All rights reserved.</p>
