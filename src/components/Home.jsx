@@ -13,7 +13,7 @@ const Home = () => {
         </h1>
 
         <ReactTyped
-          className='text-4xl sm:text-5xl font-bold text-[#9e9e9e]'
+          className='text-3xl sm:text-5xl font-bold text-[#9e9e9e]'
             strings={[
               " Luxury Streetwear",
             " British Design",
