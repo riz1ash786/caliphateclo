@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div className='main'>
         <div className="overlay"></div>
-        <video src={videoBg} autoPlay loop muted playsinline="true" disablePictureInPicture="true"/>
+        <video src={videoBg} autoPlay loop muted playsInline disablePictureInPicture={true}/>
         <div className="content">
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-center'>
         <h1 className='text-7xl sm:text-9xl font-bold text-[#e0b92d]'>
