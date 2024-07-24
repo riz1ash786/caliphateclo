@@ -17,7 +17,7 @@ const Home = () => {
             strings={[
               " Luxury Streetwear",
             " British Design",
-            " Coming Fall/Winter 2024",
+            " Coming Fall/Winter '24",
             ]}
       typeSpeed={40}
       backSpeed={40}
