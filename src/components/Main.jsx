@@ -3,7 +3,7 @@ import videoBg from '../assets/streets.mp4'
 
 const Main = () => {
   return (
-    <div className='main'>
+    <div name='main' className='w-full h-screen'>
         <div className="overlay"></div>
         <video src={videoBg} autoPlay loop muted playsInline disablePictureInPicture={true}/>
         <div className="content">
