@@ -34,13 +34,13 @@ export const Signup = () => {
           <div className='pt-32 sm:pt-0 py-10 text-center'>
             <p className='text-4xl font-bold inline border-b-4 border-[#dbb434] text-gray-300'>SIGN UP</p>
           </div>
-          <div className='pb-10 sm:pb-2 pt-0 sm:pt-4 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
+          <div className='pb-2 pt-0 sm:pt-4 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
           <div className='text-center items-center'>
             <p>Business Inquiries</p>
             <p>Email: <a className='hover:text-[#dbb434]' href='mailto:info@caliphateclo.com'>info@caliphateclo.com</a></p>
 
           </div>
-          <div className='pt-16 max-w-[1000px] w-full grid grid-cols-4 gap-8 px-2'>             
+          <div className='pt-8 sm:pt-16 max-w-[1000px] w-full grid grid-cols-4 gap-8 px-2'>             
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
             href='https://www.instagram.com/'><FaInstagram size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
@@ -53,7 +53,7 @@ export const Signup = () => {
 
           {/* modal */}
               
-          <div className="pt-8 sm:pt-4 mx-auto max-w-7xl px-6 lg:px-8 pb-28 sm:pb-0">
+          <div className="pt-8 sm:pt-4 mx-auto max-w-7xl px-6 lg:px-8 pb-32 sm:pb-0">
           <div className="relative isolate overflow-hidden bg-[#000000] px-6 py-12 shadow-2xl rounded-xl sm:rounded-2xl sm:px-24 xl:py-24">
           <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">Keep Updated</h2>
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
