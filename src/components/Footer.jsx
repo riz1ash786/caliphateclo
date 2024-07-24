@@ -17,7 +17,7 @@ const Footer = () => {
     <div>
     <h1 className='w-full text-2xl sm:text-3xl font-bold text-[#dbb434] flex '>CALIPHATE CLO. LIMITED</h1>
     <p className='py-4'>Thank you for visiting Caliphate Clo. Stay connected by following us on social media for updates & industry insights.
-    For collaboration inquiries please get in touch at info@caliphateclo.co.uk. 
+    For collaboration inquiries please get in touch at info@caliphateclo.com. 
     Copyright&#169; 2024 Caliphate Clo. Limited. All rights reserved.</p>
   
   <div className='flex justify-between md:w-[75%] my-2'>
