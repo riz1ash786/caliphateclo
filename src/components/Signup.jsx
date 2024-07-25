@@ -45,8 +45,8 @@ export const Signup = () => {
           <form ref={form} onSubmit={sendEmail}>
           <div className="mx-auto mt-8 flex max-w-md gap-x-4">  
             <label htmlFor="email-address" className="sr-only">Email address</label>
-            <input id="email-address" name="email" type="email" autoComplete="email" required="" className="min-w-0 flex-auto rounded-md border-0 bg-white/10 sm:bg-white/5 px-3.5 py-2 text-gray-300 shadow-sm ring-1 ring-inset ring-white/20 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6" placeholder="Enter your email"/>
-            <button type="submit"className="flex-none min-w-0 rounded-md border-0 bg-white/10 sm:bg-white/5 px-3.5 py-2 text-gray-300 shadow-sm ring-1 ring-inset ring-white/20 sm:text-sm sm:leading-6 hover:bg-[#dbb434] hover:text-[#000000]">Notify me</button>
+            <input id="email-address" name="email" type="email" autoComplete="email" required="" className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-gray-300 shadow-sm ring-1 ring-inset ring-white/20 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6" placeholder="Enter your email"/>
+            <button type="submit" className="flex-none min-w-0 rounded-md border-0 bg-white/5 px-3.5 py-2 text-gray-400 font-semibold shadow-sm ring-1 ring-inset ring-white/20 sm:text-sm sm:leading-6 hover:bg-[#dbb434] hover:text-[#000000]">Notify me</button>
           </div>
           </form>
 
