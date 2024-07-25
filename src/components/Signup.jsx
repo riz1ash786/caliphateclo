@@ -32,7 +32,7 @@ export const Signup = () => {
   return (
     <div name='signup' className='w-full md:h-screen sm:h-auto bg-gradient-to-r from-[#000000] to-[#000000] flex justify-center items-center p-4'>
       <div>
-          <div className='pt-44 sm:pt-0 pb-4 text-center'>
+          <div className='pt-48 sm:pt-0 pb-4 text-center'>
             <p className='text-4xl font-bold inline border-b-4 border-[#dbb434] text-gray-300'>SIGN UP</p>
           </div>
           {/* modal */}
