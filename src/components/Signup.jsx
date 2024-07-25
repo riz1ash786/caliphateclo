@@ -32,7 +32,7 @@ export const Signup = () => {
   return (
     <div name='signup' className='w-full md:h-screen sm:h-auto bg-gradient-to-r from-[#000000] to-[#000000] flex justify-center items-center p-4'>
       <div>
-          <div className='pt-40 sm:pt-0 pb-4 text-center'>
+          <div className='pt-44 sm:pt-0 pb-4 text-center'>
             <p className='text-4xl font-bold inline border-b-4 border-[#dbb434] text-gray-300'>SIGN UP</p>
           </div>
           {/* modal */}
@@ -64,7 +64,7 @@ export const Signup = () => {
          </svg>
         </div>
       </div>
-                <div className='pb-40 pt-4 sm:pt-10 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
+                <div className='pb-36 sm:pb-0 pt-4 sm:pt-10 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
           <div className='pt-8 sm:pt-16 max-w-[1000px] w-full grid grid-cols-4 gap-8 px-2'>             
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
             href='https://www.instagram.com/'><FaInstagram size={30} /></a></p>
