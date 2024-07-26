@@ -4,7 +4,7 @@ import {
   FaTimes,
   FaTiktok,
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import { AiOutlineMail } from 'react-icons/ai';
 import { FaFacebookF } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import { BsInstagram } from "react-icons/bs";
@@ -120,7 +120,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='mailto:info@caliphateclo.com'
             >
-              Email Us<HiOutlineMail size={28} />
+              Email Us<AiOutlineMail size={28} />
             </a>
           </li>
         </ul>
