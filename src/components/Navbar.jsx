@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import {
   FaBars,
   FaTimes,
-  FaInstagram,
+  FaTiktok,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { CiFacebook } from "react-icons/ci";
+import { FaFacebookF } from "react-icons/fa";
 import { Link } from 'react-scroll';
-import { FaXTwitter } from "react-icons/fa6";
+import { BsInstagram } from "react-icons/bs";
+// import { FaXTwitter } from "react-icons/fa6";
 
 
 const Navbar = () => {
@@ -95,7 +96,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.instagram.com'
             >
-              Follow Us<FaInstagram size={30} />
+              Follow Us<BsInstagram size={28} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
@@ -103,7 +104,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.facebook.com'
             >
-              Follow Us<CiFacebook size={30} />
+              Follow Us<FaFacebookF size={28} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
@@ -111,7 +112,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.x.com'
             >
-              Follow Us<FaXTwitter size={30} />
+              Follow Us<FaTiktok size={28} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
@@ -119,7 +120,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='mailto:info@caliphateclo.com'
             >
-              Email Us<HiOutlineMail size={30} />
+              Email Us<HiOutlineMail size={28} />
             </a>
           </li>
         </ul>

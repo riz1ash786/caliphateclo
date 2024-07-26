@@ -1,10 +1,11 @@
-import {FaInstagram,} from 'react-icons/fa';
-import { FaXTwitter } from "react-icons/fa6";
-import { CiFacebook } from "react-icons/ci";
-import { HiOutlineMail } from 'react-icons/hi';
+import { BsInstagram } from "react-icons/bs";
+// import { FaXTwitter } from "react-icons/fa6";
+import { MdOutlineDiversity3 } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { AiOutlineMail } from 'react-icons/ai';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { MdOutlineDiversity3 } from "react-icons/md";
 import pdf2 from "./diversity_inclusion_statement.pdf"
 
 export const Signup = () => {
@@ -64,16 +65,18 @@ export const Signup = () => {
          </svg>
         </div>
       </div>
-                <div className='pb-36 sm:pb-0 pt-4 sm:pt-10 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
-          <div className='pt-8 sm:pt-16 max-w-[1000px] w-full grid grid-cols-4 gap-8 px-2'>             
+                <div className='pb-40 sm:pb-0 pt-4 sm:pt-10 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
+          <div className='pt-8 sm:pt-16 max-w-[1000px] w-full grid grid-cols-5 gap-8 px-2'>             
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
-            href='https://www.instagram.com/'><FaInstagram size={30} /></a></p>
+            href='https://www.instagram.com/'><BsInstagram size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
-            href='https://www.facebook.com/'><CiFacebook size={30} /></a></p>
+            href='https://www.facebook.com/'><FaFacebookF size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
-            href='https://www.x.com/'><FaXTwitter size={30} /></a></p>
-                        <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
-            href='mailto:info@caliphateclo.com'><HiOutlineMail size={30} /></a></p>
+            href='https://www.x.com/'><FaTiktok size={30} /></a></p>
+            <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
+            href='mailto:info@caliphateclo.com'><AiOutlineMail size={30} /></a></p>
+            <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]' 
+            href={pdf2} download="Caliphate Clo. Diversity & Inclusion Statement.pdf"><MdOutlineDiversity3 size={30} className='hover:text-[#dbb434]'/></a></p>
           </div>
           </div>
     </div>
