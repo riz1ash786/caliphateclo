@@ -94,7 +94,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.instagram.com'
+              href='https://www.instagram.com/caliphate_clo?igsh=MXRtZGd1emt2YmdobQ%3D%3D&utm_source=qr'
             >
               Follow Us<BsInstagram size={28} />
             </a>
@@ -110,7 +110,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.x.com'
+              href='https://www.tiktok.com/@caliphate.clo?_t=8oLWs5Z6Sv3&_r=1'
             >
               Follow Us<FaTiktok size={28} />
             </a>

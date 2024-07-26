@@ -68,11 +68,11 @@ export const Signup = () => {
                 <div className='pb-40 sm:pb-0 pt-4 sm:pt-10 max-w-[1000px] w-full grid gap-8 px-2 text-gray-300'>
           <div className='pt-8 sm:pt-16 max-w-[1000px] w-full grid grid-cols-5 gap-8 px-2'>             
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
-            href='https://www.instagram.com/'><BsInstagram size={30} /></a></p>
+            href='https://www.instagram.com/caliphate_clo?igsh=MXRtZGd1emt2YmdobQ%3D%3D&utm_source=qr'><BsInstagram size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
             href='https://www.facebook.com/'><FaFacebookF size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
-            href='https://www.x.com/'><FaTiktok size={30} /></a></p>
+            href='https://www.tiktok.com/@caliphate.clo?_t=8oLWs5Z6Sv3&_r=1'><FaTiktok size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]'
             href='mailto:info@caliphateclo.com'><AiOutlineMail size={30} /></a></p>
             <p><a className='pt-2 flex justify-center text-gray-300 hover:text-[#dbb434]' 
